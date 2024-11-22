@@ -3,3 +3,51 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+ul,ol,li{
+list-style: none;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    align-items: center;
+    z-index: 50;
+    width: 100vw;
+    background-color: #7070dc;
+    height: 100px; 
+    padding: 20px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60%;
+    
+}
+
+header nav a:hover{
+    border-bottom: 1px solid #b6cbf1;
+}
+header nav a{
+    color: white;
+    padding: 8px;
+    translate: 1s;
+}
+
+.logo{
+    height: 80px;
+    width: -100px;
+    background-size: cover;
+
+}
+
+div img{
+    
+    max-width: 100px;
+}
