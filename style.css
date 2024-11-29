@@ -68,10 +68,36 @@ header nav a:hover{
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: white; 
-    font-size: 130px; 
+    font-size: 140px; 
     text-align: center; 
     z-index: 3;
 }
+
+.img-atomo{
+    position: absolute; 
+    top: 110%; 
+    left: 95%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center; 
+    z-index: 3;
+}
+
+.conteudo{
+    background-color: azure;
+    position: absolute;
+    display: flex;
+    height: 50%;
+    top: 125%;
+    left: 30%;
+}
+
+.titulo h1{
+    white-space: nowrap;
+    font-size: 30px;
+    color: black;
+}
+
 #azul{
     background-color: blue;
 }
