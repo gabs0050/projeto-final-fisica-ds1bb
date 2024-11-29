@@ -1,53 +1,140 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 a{
     text-decoration: none;
-    text-align: center;
-    justify-content: center;
 }
 ul,ol,li{
-list-style: none;
-}
-html,body{
+    list-style: none;
     scroll-behavior: smooth;
 }
-header {
-    display: flex;
-    align-items: center;
-    z-index: 50;
-    width: 100vw;
-    background-color: #7070dc;
-    height: 100px; 
-    padding: 20px;
-}
-header nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60%;
-    
+
+html, body{
+    scroll-behavior: smooth;
 }
 
-header nav a:hover{
-    border-bottom: 1px solid #b6cbf1;
+ul{
+    padding: 0;
+}
+header{
+    background-color: #7076dc;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 header nav a{
     color: white;
     padding: 8px;
-    translate: 1s;
+    transition: 1s;
 }
-
-.logo{
-    height: 80px;
-    width: -100px;
-    background-size: cover;
-
+header nav a:hover{
+    border-bottom: 1px solid #b6cbf1;
+   
 }
-
-div img{
+.grupo{
+    height: 100vh;
+    background-color: #b6cbf1 ;
+}
+#pagina1{
+    height: 200vw;
+    background-color: #b6cbf1;
+    background-repeat: no-repeat;
+    display: flex;
     
-    max-width: 100px;
+}
+.imagem-1{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.jay{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10%;
+}
+#pagina1 h1{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 130px; 
+    text-align: center; 
+    z-index: 3;
+}
+#azul{
+    background-color: blue;
+}
+#azul h1{
+    position: absolute; 
+    top: 50%; 
+    left: 45%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(119, 115, 115); 
+    font-size: 150px; 
+    text-align: center; 
+    z-index: 10; 
+    margin-top: 101%;
+    margin-left: 4%;
+
+}
+.quadra3{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.lebron{
+    position: absolute;
+    z-index: 2;
+    margin-left: 34%;
+    margin-top:1%;
+    height: 100%;
+    
+  
+}
+#verde{
+    background-color: yellow;
+}
+#verde h1{
+    position: absolute; 
+    top: 50%; 
+    left: 45%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 150px; 
+    text-align: center; 
+    z-index: 10; 
+    margin-top: 48%;
+    margin-left: 4%;
+
+}
+.curry{
+    position: absolute;
+    z-index: 2;
+    margin-left: 37%;
+    margin-top: 4%;
+    
+    
+}
+.quadra2{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+#amarelo{
+    background-color: aliceblue;
+}
+
+#roxo{
+    background-color: blueviolet;
 }
