@@ -43,7 +43,7 @@ header nav a:hover{
     background-color: #b6cbf1 ;
 }
 #pagina1{
-    height: 200vw;
+    height: 110vw;
     background-color: #b6cbf1;
     background-repeat: no-repeat;
     display: flex;
@@ -68,7 +68,7 @@ header nav a:hover{
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: white; 
-    font-size: 140px; 
+    font-size: 105px; 
     text-align: center; 
     z-index: 3;
 }
@@ -84,18 +84,37 @@ header nav a:hover{
 }
 
 .conteudo{
-    background-color: azure;
     position: absolute;
-    display: flex;
-    height: 50%;
-    top: 125%;
-    left: 30%;
+    height: 40%;
+    width: 80%;
+    top: 145%;
+    left: 3%;
 }
+
+.conteudo h3{
+    margin-top: -9%;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Rhodium Libre', cursive;
+}
+
+.conteudo h1{
+    display: flex;
+    position: absolute;
+    right: -50%;
+    font-family: 'Italianno', cursive;
+}
+
 
 .titulo h1{
     white-space: nowrap;
     font-size: 30px;
     color: black;
+    margin-top: -30%;
+}
+
+#pagina2{
+    background-color: aqua;
 }
 
 #azul{
